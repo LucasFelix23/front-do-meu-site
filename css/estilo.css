@@ -1,0 +1,91 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "trebunchet MS", helvetica, sans-serif;
+	background-color: #5f0d74;
+}
+
+/* %%%%% layout %%%%% */
+#area-cabecalho{
+	padding: 15px;
+}
+#area-logo{
+	width: 210px;
+	padding: 0px 0px 0px 200px;
+	position: absolute;
+}
+#area-logo2{
+	background: #5f0d74;
+	width: 300px;
+	position: absolute;
+	top: 150px;
+	left: 400px;
+}
+#area-login{
+	background: #5f0d74;
+	width: 200px;
+	position: absolute;
+	top: 120px;
+	left: 1500px;
+}
+#area-menu{
+	background: #ff7520;
+	margin: 200px 200px 0px 200px;
+	padding: 10px 20px 10px 20px;
+
+}
+#area-texto{
+	background: gray;
+	margin: 50px 250px 0px 250px;
+	padding: 10px 20px 10px 20px;
+}
+.links{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+}
+/* formataçao do menu */
+a.logo:hover{
+	background: #ff7520;
+}
+a.login:hover{
+	background: #5f0d74;
+	text-decoration: underline;
+}
+a.sublinhado:link, a.sublinhado:hover {
+	text-decoration: underline;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: black;
+}
+a:hover{
+	color: #ff7520;
+	background: black;
+}
+/*Formatação em geral*/
+h1{
+	color: #ff7520;
+	font-size: 2.5em;
+}
+h2{
+	color: white;
+	font-size: 1.5em;
+}
+h3{
+	color: white;
+}
+strong { 
+	color: #ff7520;
+}
+p{
+	color: #fff;
+}
+
