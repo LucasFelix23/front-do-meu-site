@@ -7,36 +7,38 @@ body{
 	font-size: 1em;
 	font-family: "trebunchet MS", helvetica, sans-serif;
 	background-color: #5f0d74;
+	padding: 15px;
 }
 
 /* %%%%% layout %%%%% */
 #area-cabecalho{
-	padding: 15px;
+    margin: 0 12rem 0 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#area-logo-toda{
+	display: flex;
+    align-items: center;
 }
 #area-logo{
-	width: 210px;
-	padding: 0px 0px 0px 200px;
-	position: absolute;
+	padding: 0;
 }
 #area-logo2{
 	background: #5f0d74;
 	width: 300px;
-	position: absolute;
-	top: 150px;
-	left: 400px;
+	min-width: 300px;
 }
 #area-login{
 	background: #5f0d74;
 	width: 200px;
-	position: absolute;
-	top: 120px;
-	left: 1500px;
+	min-width: 200px;
 }
 #area-menu{
 	background: #ff7520;
-	margin: 200px 200px 0px 200px;
+	margin: 0 12rem 0 12rem;
 	padding: 10px 20px 10px 20px;
-
+	min-width: 600px;
 }
 #area-texto{
 	background: gray;
